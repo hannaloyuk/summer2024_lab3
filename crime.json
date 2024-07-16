@@ -1,0 +1,344 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "vgxg-6wg9",
+      "name" : "Relationship of Victim to Offender, Clarkston Police Department",
+      "assetType" : "dataset",
+      "attribution" : "City of Clarkston Police Department",
+      "averageRating" : 0,
+      "category" : "Public Safety",
+      "createdAt" : 1604703702,
+      "description" : "This dataset shows the relationship of victims to offenders for crimes as reported by the City of Clarkston Police Department to NIBRS (National Incident-Based Reporting System), Group A",
+      "displayType" : "table",
+      "downloadCount" : 651,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "licenseId" : "USGOV_WORKS",
+      "locked" : false,
+      "newBackend" : true,
+      "numberOfComments" : 0,
+      "oid" : 35703161,
+      "provenance" : "official",
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1604704430,
+      "publicationGroup" : 17757232,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1647301495,
+      "rowsUpdatedBy" : "wbwq-kxbs",
+      "tableId" : 17757232,
+      "totalTimesRated" : 0,
+      "viewCount" : 422,
+      "viewLastModified" : 1647301494,
+      "viewType" : "tabular",
+      "approvals" : [ {
+        "reviewedAt" : 1604704430,
+        "reviewedAutomatically" : true,
+        "state" : "approved",
+        "submissionId" : 2887077,
+        "submissionObject" : "public_audience_request",
+        "submissionOutcome" : "change_audience",
+        "submittedAt" : 1604704430,
+        "targetAudience" : "public",
+        "workflowId" : 2106,
+        "submissionDetails" : {
+          "permissionType" : "READ"
+        },
+        "submissionOutcomeApplication" : {
+          "endedAt" : 1604704430,
+          "failureCount" : 0,
+          "startedAt" : 1604704430,
+          "status" : "success"
+        },
+        "submitter" : {
+          "id" : "wbwq-kxbs",
+          "displayName" : "Asotin County Library"
+        }
+      } ],
+      "clientContext" : {
+        "clientContextVariables" : [ ],
+        "inheritedVariables" : { }
+      },
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 507377001,
+        "name" : "Year",
+        "dataTypeName" : "text",
+        "description" : "Year offenses were reported",
+        "fieldName" : "year",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 121949556,
+        "cachedContents" : {
+          "non_null" : "20",
+          "largest" : "2020",
+          "null" : "0",
+          "top" : [ {
+            "item" : "2016",
+            "count" : "4"
+          }, {
+            "item" : "2019",
+            "count" : "4"
+          }, {
+            "item" : "2017",
+            "count" : "4"
+          }, {
+            "item" : "2018",
+            "count" : "4"
+          }, {
+            "item" : "2020",
+            "count" : "4"
+          } ],
+          "smallest" : "2016",
+          "count" : "20",
+          "cardinality" : "5"
+        },
+        "format" : { }
+      }, {
+        "id" : 507377029,
+        "name" : "Relationship",
+        "dataTypeName" : "text",
+        "description" : "Type of relationship between victim and offender",
+        "fieldName" : "relationship",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 121949583,
+        "cachedContents" : {
+          "non_null" : "20",
+          "largest" : "Within Family",
+          "null" : "0",
+          "top" : [ {
+            "item" : "Outside Family",
+            "count" : "5"
+          }, {
+            "item" : "Other",
+            "count" : "5"
+          }, {
+            "item" : "Within Family",
+            "count" : "5"
+          }, {
+            "item" : "Not Known",
+            "count" : "5"
+          } ],
+          "smallest" : "Not Known",
+          "count" : "20",
+          "cardinality" : "4"
+        },
+        "format" : { }
+      }, {
+        "id" : 507377028,
+        "name" : "NumberOfCrimes",
+        "dataTypeName" : "number",
+        "description" : "Number of crimes by relationship of victim to offender in a given year",
+        "fieldName" : "numberofcrimes",
+        "position" : 3,
+        "renderTypeName" : "number",
+        "tableColumnId" : 121949582,
+        "cachedContents" : {
+          "non_null" : "20",
+          "largest" : "158",
+          "null" : "0",
+          "top" : [ {
+            "item" : "0",
+            "count" : "2"
+          }, {
+            "item" : "21",
+            "count" : "1"
+          }, {
+            "item" : "42",
+            "count" : "1"
+          }, {
+            "item" : "52",
+            "count" : "1"
+          }, {
+            "item" : "51",
+            "count" : "1"
+          }, {
+            "item" : "158",
+            "count" : "1"
+          }, {
+            "item" : "71",
+            "count" : "1"
+          }, {
+            "item" : "37",
+            "count" : "1"
+          }, {
+            "item" : "39",
+            "count" : "1"
+          }, {
+            "item" : "90",
+            "count" : "1"
+          }, {
+            "item" : "133",
+            "count" : "1"
+          }, {
+            "item" : "10",
+            "count" : "1"
+          }, {
+            "item" : "123",
+            "count" : "1"
+          }, {
+            "item" : "1",
+            "count" : "1"
+          }, {
+            "item" : "20",
+            "count" : "1"
+          }, {
+            "item" : "148",
+            "count" : "1"
+          }, {
+            "item" : "4",
+            "count" : "1"
+          }, {
+            "item" : "11",
+            "count" : "1"
+          }, {
+            "item" : "25",
+            "count" : "1"
+          } ],
+          "smallest" : "0",
+          "count" : "20",
+          "cardinality" : "19"
+        },
+        "format" : { }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "license" : {
+        "name" : "Public Domain U.S. Government",
+        "termsLink" : "https://www.usa.gov/government-works"
+      },
+      "metadata" : {
+        "custom_fields" : {
+          "Temporal" : {
+            "Posting Frequency" : "Annually",
+            "Period of Time" : "2016-2020"
+          },
+          "Notes" : {
+            "1. " : "This dataset shows the types and numbers of weapons used in crimes reported by the City of Clarkston Police Department to NIBRS (National Incident-Based Reporting System), Group A."
+          }
+        },
+        "rowLabel" : "representation of the relationship between the victim of a crime and the offender and the number of crimes by type of relationship.",
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ]
+      },
+      "owner" : {
+        "id" : "wbwq-kxbs",
+        "displayName" : "Asotin County Library",
+        "profileImageUrlLarge" : "/api/users/wbwq-kxbs/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/wbwq-kxbs/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/wbwq-kxbs/profile_images/TINY",
+        "screenName" : "Asotin County Library",
+        "type" : "interactive",
+        "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "wbwq-kxbs",
+        "displayName" : "Asotin County Library",
+        "profileImageUrlLarge" : "/api/users/wbwq-kxbs/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/wbwq-kxbs/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/wbwq-kxbs/profile_images/TINY",
+        "screenName" : "Asotin County Library",
+        "type" : "interactive",
+        "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+      },
+      "tags" : [ "police", "offenses", "relationships", "family", "clarkston", "victims", "offenders", "asotin county", "crime", "nibrs" ],
+      "flags" : [ "default", "ownerMayBeContacted", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data" : [ [ "row-itd6.2ayj-xdqi", "00000000-0000-0000-7B07-7191F68D2E64", 0, 1647301495, null, 1647301495, null, "{ }", "2020", "Other", "0" ]
+, [ "row-v5um~7p58~5fj3", "00000000-0000-0000-C759-E0526ED0FA53", 0, 1647301495, null, 1647301495, null, "{ }", "2020", "Not Known", "39" ]
+, [ "row-zatc-8vmi~f9be", "00000000-0000-0000-3D90-2812D13981CF", 0, 1647301495, null, 1647301495, null, "{ }", "2020", "Outside Family", "123" ]
+, [ "row-ac2p-3qj5_qz9t", "00000000-0000-0000-47AC-C27AE92F5A1A", 0, 1647301495, null, 1647301495, null, "{ }", "2020", "Within Family", "37" ]
+, [ "row-vc2a_w6zi.2jkq", "00000000-0000-0000-8B6B-F46F13BD2AB1", 0, 1647301495, null, 1647301495, null, "{ }", "2019", "Other", "11" ]
+, [ "row-d9vk~ncp9~tc36", "00000000-0000-0000-E739-CF1C4C162450", 0, 1647301495, null, 1647301495, null, "{ }", "2019", "Not Known", "42" ]
+, [ "row-f8rm-8kun-vmfd", "00000000-0000-0000-63D1-507F7226F5BF", 0, 1647301495, null, 1647301495, null, "{ }", "2019", "Outside Family", "158" ]
+, [ "row-k86f-nsgf~9nch", "00000000-0000-0000-95DF-1ACA411D4853", 0, 1647301495, null, 1647301495, null, "{ }", "2019", "Within Family", "71" ]
+, [ "row-f3bg_g54h~3vzs", "00000000-0000-0000-ACF7-C38A47FF898C", 0, 1647301495, null, 1647301495, null, "{ }", "2018", "Other", "1" ]
+, [ "row-cy65-p7dq~4fyt", "00000000-0000-0000-4AF1-63EDC3D7D62F", 0, 1647301495, null, 1647301495, null, "{ }", "2018", "Not Known", "25" ]
+, [ "row-mn95_m3my.9zh6", "00000000-0000-0000-78B3-DF3EED30D066", 0, 1647301495, null, 1647301495, null, "{ }", "2018", "Outside Family", "133" ]
+, [ "row-ud8m_g4d5_qqd2", "00000000-0000-0000-3589-E0E1290949BD", 0, 1647301495, null, 1647301495, null, "{ }", "2018", "Within Family", "51" ]
+, [ "row-98rz-gbnd~5azq", "00000000-0000-0000-1284-C6874C67AB1B", 0, 1647301495, null, 1647301495, null, "{ }", "2017", "Other", "0" ]
+, [ "row-iaqi~uiu9-3bct", "00000000-0000-0000-962C-F1C44C9EFAA1", 0, 1647301495, null, 1647301495, null, "{ }", "2017", "Not Known", "4" ]
+, [ "row-a95p_i4wd-dxxc", "00000000-0000-0000-E982-BF1A165F82B7", 0, 1647301495, null, 1647301495, null, "{ }", "2017", "Outside Family", "90" ]
+, [ "row-cnzg~jumk~c8yj", "00000000-0000-0000-78A8-93077D0EA5AB", 0, 1647301495, null, 1647301495, null, "{ }", "2017", "Within Family", "20" ]
+, [ "row-gs4i-zz22-jzy9", "00000000-0000-0000-3188-CE9BD94BF6B1", 0, 1647301495, null, 1647301495, null, "{ }", "2016", "Other", "21" ]
+, [ "row-mstb-ppve~r6nd", "00000000-0000-0000-787A-F63BB33747D4", 0, 1647301495, null, 1647301495, null, "{ }", "2016", "Not Known", "10" ]
+, [ "row-emu8-7r6k-yt5p", "00000000-0000-0000-D2DC-EC6D44F6C967", 0, 1647301495, null, 1647301495, null, "{ }", "2016", "Outside Family", "148" ]
+, [ "row-hz77_69px_4icp", "00000000-0000-0000-CD5B-8D78178FDBF8", 0, 1647301495, null, 1647301495, null, "{ }", "2016", "Within Family", "52" ]
+ ]
+}
